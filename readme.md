@@ -66,6 +66,16 @@ S↓
 
 我写的脚本代码如下
 ```
+
+;替换后的布局
+/*
+ `~  1 2 3 4 5 6 7 8 9 0 - = backsp
+Tab   Q W F P G J L U Y ; [ ]  \
+Back   A R S T D H N E I O " Enterr
+LShift  Z X C V B K M , . / RShiftt
+Ctrl Win Alt  Space Alt Menu Fn Ctrl
+*/
+
 ;colemak的对应QWERTY键位
 e::f
 r::p
@@ -87,21 +97,31 @@ n::k
 
 ;这里是替换大写和退格
 CapsLock::BackSpace
+;大写切换不会经常用,平时用shift
 LShift & CapsLock::CapsLock
 
-;方向组合键
-/*
-RShift & e::send {up}
-RShift & d::send {Down}
-RShift & s::send {Left}
-RShift & f::send {Right}
-*/
 
-;方向组合键2
+;方向组合
 LAlt & i::send {up}
 LAlt & k::send {Down}
 LAlt & j::send {Left}
 LAlt & l::send {Right}
+
+;<h-o> =>> Home End
+LAlt & h::send {Home}
+LAlt & `;::send {End}
+
+/*
+现在就是这样子了
+
+     u
+ h n e i o
+
+     ↑
+<< ← ↓ → >>
+
+*/
+
 ```
 
 然后将脚本文件保存成Unicode编码,在桌面双击即可执行脚本
