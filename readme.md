@@ -24,8 +24,7 @@ tags: entertainment solution
 
 AutoHotkey 是一个自动化软件工具，通过热键、热字串或设定的条件自动执行重复性工作。首页 发现 等你来答 登录 加入知乎 AutoHotkey AutoHotkey 是一个自动化软件工具，通过热键、热字串或设定的条件自动执行重复性工作 .
 
-更多详细信息也可以参考[autohotkey官网](https://www.autohotkey.com/)
-
+更多详细信息也可以参考[autohotkey官网](https://www.autohotkey.com/) 或者 [中文文档](http://ahkcn.sourceforge.net/docs/AutoHotkey.htm)
 ## autohotkey安装
 在使用autohotkey之前,我们需要进行下载安装
 
@@ -116,6 +115,11 @@ LAlt & l::send {Right}
 如果你想打包成可执行文件,发给没有安装autohotkey的计算机中亦可以使用
 
 操作方式很easy,在脚本文件中右击,选择Compile Script,即可在当前文件夹,生成一个与脚本文件同名的exe可执行文件
+
+## 编辑器
+支持autohotkey语法高亮的编辑器很多,小编使用的是sublime
+
+关于它的插件的安装,可以参考[这里](https://packagecontrol.io/packages/AutoHotkey) 
 
 ##项目源代码地址
 码云：https://gitee.com/victorfengming/colmak_autohotkey
