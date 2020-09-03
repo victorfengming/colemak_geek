@@ -121,7 +121,7 @@ LAlt & l::send {Right}
 
 关于它的插件的安装,可以参考[这里](https://packagecontrol.io/packages/AutoHotkey) 
 
-##项目源代码地址
+## 项目源代码地址
 码云：https://gitee.com/victorfengming/colmak_autohotkey
 
 感觉有帮助的伙伴可以给小编`star`一下
