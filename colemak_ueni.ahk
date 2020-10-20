@@ -71,6 +71,7 @@ LShift & CapsLock::CapsLock
 <+<!l::send {Shift down}{Right}
 <+<!h::send {Shift down}{Home}
 <+<!`;::send {Shift down}{End}
+<+<!';::send {Shift down}{Del}
 
 ;Alt ctrl组合方向键
 <^<!i::send {Ctrl down}{up}
