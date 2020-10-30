@@ -1,4 +1,4 @@
-﻿
+
 /*
 * author:@victorfegming
 * address:gitee.com/victorfengming
@@ -94,11 +94,11 @@ LShift & CapsLock::CapsLock
 <!u::send {PgUp}
 <!o::send {PgDn}
 
-;禁止方向键，提醒使用主键盘
-up::return
-Down::return
-Left::return
-Right::return
+;不用禁止方向键了
+; up::return
+; Down::return
+; Left::return
+; Right::return
 
 
 /*
