@@ -50,8 +50,8 @@ n::k
 
 ;这里是替换大写和退格
 CapsLock::BackSpace
-;大写切换不会经常用,平时用shift
-LShift & CapsLock::CapsLock
+;大写切换不会经常用,平时用shift,这里改成右边防止误触
+RShift & CapsLock::CapsLock
 ;强烈建议这里换成删除,因为删除的按键距离主键盘过远,影响打字效率
 
 ;Alt 的 方向组合
