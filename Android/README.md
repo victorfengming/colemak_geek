@@ -1,4 +1,27 @@
-# Colemak Geek
+# 操作说明
+
+1. 安装百度输入法
+
+2. 自定义皮肤 
+
+会在 `sdcard/baidu/ime/skins` 目录生成 
+
+扩展名为 `bds`的 皮肤文件
+
+3. 将yr824563x41.bds 拷贝到 `sdcard/baidu/ime/skins` 目录,重命名后 替换 你刚才自定义的皮肤文件
+
+4. 在百度皮肤管理中,重新设置即可
+
+5. 效果如下
+
+![](Screenshot_2021-06-08-22-18.jpg)
+
+
+> 去操作吧
+
+# 原文README
+
+## Colemak Geek
 
 修改自百度官方的 [Android L](http://r6.mo.baidu.com/web/is/v/231) 皮肤。兼容 Android 和 iOS。
 
@@ -6,7 +29,7 @@ _Colemak Geek_ is a customized layout for Baidu IME for Mobile (Android, iOS and
 
 **该皮肤布局仅适用于2.1及以上版本百度手机输入法，不适用于2.0版。**
 
-# 功能介绍
+## 功能介绍
 
 * **全网首个中文输入法 Colemak 布局**
 * **全网首个百度手机输入法点划全符号布局**
@@ -17,21 +40,21 @@ _Colemak Geek_ is a customized layout for Baidu IME for Mobile (Android, iOS and
 * 英文状态下 K 键点划输入箭头符号
 * 支持邮箱、网址输入状态（仅 iOS）
 
-## 安装方法:
+### 安装方法:
 
-### Android、Symbian
+#### Android、Symbian
 
 * 方法1：将下载的皮肤布局文件（.bds）拷贝到手机任意位置，使用手机文件浏览器，以“百度输入法”打开，系统自动安装（部分android手机不支持后缀关联.请使用以下两种方法）
 * 方法2：将下载的皮肤布局文件（.bds）放到指定目录。 【Android目录】：`sdcard/baidu/ime/skins` 【S60 V5/Symbian^3目录】：`手机存储/baidu/input/touchskin`
 * 方法3：点击输入法面板上熊头logo，进入“超级皮肤”，在皮肤布局页中进入皮肤布局商店，下载安装。
 
-### iPhone
+#### iPhone
 
 * 下载皮肤布局文件（.bdi文件或带苹果标志的.bds文件）
 * 放入手机中对应文件夹 `/var/mobile/Library/Keyboard/BaiduInputMethod/layouts`
 * Respring 手机
 
-## 使用方法:
+### 使用方法:
 
 * Android：点击输入法面板上熊头logo，进入“超级皮肤”（3.1版以下为“主题/皮肤”），在皮肤布局页中，选择您要启用的皮肤布局。
 * S60 v5/Symbian^3：点击输入法面板上熊头logo，进入“主题/皮肤”，在皮肤页中，选择您要启用的皮肤布局。 iPhone：进入输入法设置项，进入超级皮肤 ，在布局页中选择您要启用的皮肤布局。
