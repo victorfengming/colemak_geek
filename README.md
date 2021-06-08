@@ -27,6 +27,10 @@ tags: entertainment solution
 
 [Colemak AutoHotKey](https://gitee.com/victorfengming/colemak_geek/blob/master/windows/README.md)
 
+### colemak linux 输入法 实现方案
+
+[deepin-colemak](https://victorfengming.gitee.io/linux/deepin-colemak/)
+
 ### colemak 手机输入法 实现方案
 
 [Colemak Geek](https://gitee.com/victorfengming/colemak_geek/blob/master/Android/README.md)
@@ -36,3 +40,4 @@ tags: entertainment solution
 码云：https://gitee.com/victorfengming/colemak_geek
 
 感觉有帮助的伙伴可以给小编`star`一下
+
