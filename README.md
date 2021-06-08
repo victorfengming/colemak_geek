@@ -1,5 +1,5 @@
 ---
-title: 'colemak布局的实现'
+title: 'Colemak布局的实现'
 subtitle: '一个极客的键盘布局'
 tags: entertainment solution
 ---
