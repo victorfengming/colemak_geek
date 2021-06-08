@@ -1,5 +1,5 @@
 ---
-title: '基于autohotkey的colmak布局配置'
+title: '基于autohotkey的colemak布局配置'
 subtitle: '一个极客的键盘布局'
 tags: entertainment solution
 ---
@@ -18,8 +18,10 @@ tags: entertainment solution
 
 这种键盘布局,根据热力图显示,我们打字中经常使用的按键（比如元音字母a,o,e,i,u）都会被设计在键盘的中间的一排中,这样可以减少我们在打字的过程中的手指的移动,打字的效率自然就会提高
 
-切换这种布局的方式有很多，经过小编汗水亲测以及对比，autohotkey是其中最好的解决方案，因为他是通过脚本进行按键的替换，所以在使用的时候你不需要局限于输入法，你可以使用colmak输入英文，也可以使用它来输入中文（拼音输入）。  
+切换这种布局的方式有很多，经过小编汗水亲测以及对比，autohotkey是其中最好的解决方案，因为他是通过脚本进行按键的替换，所以在使用的时候你不需要局限于输入法，你可以使用colemak输入英文，也可以使用它来输入中文（拼音输入）。  
 万事开头难，你一开始使用他一定会不适应的，但是只要你坚持打到3个星期，我相信，这个时候你的打字速度足够满足正常的输入需求了。
+
+
 ## autohotkey介绍
 
 AutoHotkey 是一个自动化软件工具，通过热键、热字串或设定的条件自动执行重复性工作。首页 发现 等你来答 登录 加入知乎 AutoHotkey AutoHotkey 是一个自动化软件工具，通过热键、热字串或设定的条件自动执行重复性工作 .
@@ -69,7 +71,7 @@ S↓
 /*
 * author:@victorfegming
 * address:gitee.com/victorfengming
-* 项目下载:https://gitee.com/victorfengming/colmak_autohotkey
+* 项目下载:https://gitee.com/victorfengming/colemak_geek
 * 博客地址:https://victorfengming.gitee.io/
 */
 
@@ -194,15 +196,5 @@ Right::return
 如果你想打包成可执行文件,发给没有安装autohotkey的计算机中亦可以使用
 
 操作方式很easy,在脚本文件中右击,选择Compile Script,即可在当前文件夹,生成一个与脚本文件同名的exe可执行文件
-
-## 编辑器
-支持autohotkey语法高亮的编辑器很多,小编使用的是sublime
-
-关于它的插件的安装,可以参考[这里](https://packagecontrol.io/packages/AutoHotkey) 
-
-## 项目源代码地址
-码云：https://gitee.com/victorfengming/colmak_autohotkey
-
-感觉有帮助的伙伴可以给小编`star`一下
 
 
