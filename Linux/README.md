@@ -25,7 +25,7 @@ https://wiki.archlinux.org/title/Xmodmap_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)
 xmodmap -pke > ~/.Xmodmap
 ```
 
-![1633613241160](deepin-colemak/1633613241160.png)
+![1633613241160](1633613241160.png)
 
 修改文件内容如下:
 
@@ -132,7 +132,7 @@ Exec=/home/victor/.config/autostart/colemak.sh
 
 
 
-![1633613256359](deepin-colemak/1633613256359.png)
+![1633613256359](1633613256359.png)
 
 
 
