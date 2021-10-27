@@ -112,5 +112,5 @@ RShift & CapsLock::CapsLock
 - down表示按下的状态
 - &表示组合键
 - <表示只有左边的修饰符生效
-- return 啥也不干
+- return 啥也不干的
 */
