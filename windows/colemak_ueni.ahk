@@ -58,11 +58,33 @@ n::k
 ; 这里用习惯了mac,将win的alt和ctl替换一下
 ;LAlt::LControl
 ;LControl::LAlt
-<!c::Send ^c
-<!x::Send ^x
-<!v::Send ^v
+<!q::Send ^q
 <!w::Send ^w
+<!e::Send ^f
+<!r::Send ^p
+<!t::Send ^g
+<!y::Send ^j
+<!u::Send ^l
+<!i::Send ^u
+<!o::Send ^y
+<!p::Send ^`;
 <!a::Send ^a
+<!s::Send ^r
+<!d::Send ^s
+<!f::Send ^t
+<!g::Send ^d
+<!h::Send ^h
+<!j::Send ^n
+<!k::Send ^e
+<!l::Send ^i
+<!`;::Send ^o
+<!z::Send ^z
+<!x::Send ^x
+<!c::Send ^c
+<!v::Send ^v
+<!b::Send ^b
+<!n::Send ^k
+<!m::Send ^m
 
 ;这里是替换大写和退格
 CapsLock::BackSpace
