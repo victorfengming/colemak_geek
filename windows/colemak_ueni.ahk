@@ -16,6 +16,9 @@ LShift  Z X C V B K M , . / RShiftt
 Ctrl Win Alt  Space Alt Menu Fn Ctrl
 */
 
+;由于mac系统没有home键,这里通过组合键实现
+;使用方式:按住右alt键
+;右手的位置对应的键即是方向键和home end键
 /*
 
    l u y
@@ -48,6 +51,19 @@ n::k
 ; 这里的替换不会影响组合的修饰符
 ; 比如现在按Ctrl+F就是Ctrl+F,不会是原来的Ctrl+E
 
+; 恢复alt+tab切换应用
+;<^Tab::send {Alt down}{Tab}{Enter}
+;<^Tab::<!Tab
+
+; 这里用习惯了mac,将win的alt和ctl替换一下
+;LAlt::LControl
+;LControl::LAlt
+<!c::Send ^c
+<!x::Send ^x
+<!v::Send ^v
+<!w::Send ^w
+<!a::Send ^a
+
 ;这里是替换大写和退格
 CapsLock::BackSpace
 ;大写切换不会经常用,平时用shift,这里改成右边防止误触
@@ -55,44 +71,44 @@ RShift & CapsLock::CapsLock
 ;强烈建议这里换成删除,因为删除的按键距离主键盘过远,影响打字效率
 
 ;Alt 的 方向组合
-<!i::send {up}
-<!k::send {Down}
-<!j::send {Left}
-<!l::send {Right}
-<!'::send {Del}
+>!i::send {up}
+>!k::send {Down}
+>!j::send {Left}
+>!l::send {Right}
+>!'::send {Del}
 ;<h-o> =>> Home End
-<!h::send {Home}
-<!`;::send {End}
+>!h::send {Home}
+>!`;::send {End}
 
 
 ;Alt shift组合方向键
-<+<!i::send {Shift down}{up}
-<+<!k::send {Shift down}{Down}
-<+<!j::send {Shift down}{Left}
-<+<!l::send {Shift down}{Right}
-<+<!h::send {Shift down}{Home}
-<+<!`;::send {Shift down}{End}
-<+<!'::send {Shift down}{Del}
+<+>!i::send {Shift down}{up}
+<+>!k::send {Shift down}{Down}
+<+>!j::send {Shift down}{Left}
+<+>!l::send {Shift down}{Right}
+<+>!h::send {Shift down}{Home}
+<+>!`;::send {Shift down}{End}
+<+>!'::send {Shift down}{Del}
 
 ;Alt ctrl组合方向键
-<^<!i::send {Ctrl down}{up}
-<^<!k::send {Ctrl down}{Down}
-<^<!j::send {Ctrl down}{Left}
-<^<!l::send {Ctrl down}{Right}
-<^<!h::send {Ctrl down}{Home}
-<^<!`;::send {Ctrl down}{End}
+<^>!i::send {Ctrl down}{up}
+<^>!k::send {Ctrl down}{Down}
+<^>!j::send {Ctrl down}{Left}
+<^>!l::send {Ctrl down}{Right}
+<^>!h::send {Ctrl down}{Home}
+<^>!`;::send {Ctrl down}{End}
 
 ;Alt Ctrl Shift 组合方向键
-<^<+<!i::send {Ctrl down}{Shift down}{up}
-<^<+<!k::send {Ctrl down}{Shift down}{Down}
-<^<+<!j::send {Ctrl down}{Shift down}{Left}
-<^<+<!l::send {Ctrl down}{Shift down}{Right}
-<^<+<!h::send {Ctrl down}{Shift down}{Home}
-<^<+<!`;::send {Ctrl down}{Shift down}{End}
+<^<+>!i::send {Ctrl down}{Shift down}{up}
+<^<+>!k::send {Ctrl down}{Shift down}{Down}
+<^<+>!j::send {Ctrl down}{Shift down}{Left}
+<^<+>!l::send {Ctrl down}{Shift down}{Right}
+<^<+>!h::send {Ctrl down}{Shift down}{Home}
+<^<+>!`;::send {Ctrl down}{Shift down}{End}
 
 ;Alt + ly page↑page↓
-<!u::send {PgUp}
-<!o::send {PgDn}
+>!u::send {PgUp}
+>!o::send {PgDn}
 
 ;不用禁止方向键了
 ; up::return
